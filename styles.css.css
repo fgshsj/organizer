@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --voilet: #A009C6;
+    --black: #000000;
+    --whitle: #fff;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100svh;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* -------------header------------ */
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 1200px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navigation a{
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+.item{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.item image{
+    display: block;
+}
+
+/*--------- content ---------*/
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 60px 87px 60.866px 0px; */
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.content_small{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+h1{
+    width: 526px;
+    color: var(--black);
+    font-family: Inter;
+    font-size: 64px;
+    line-height: 110%; /* 70.4px */
+    font-weight: 700;
+
+ 
+
+}
+
+h2{
+    width: 500px;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+
+}
+
+.button{
+    display: flex;
+    padding: 25px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--voilet);
+    width: 317px ;
+    cursor: pointer;
+}
+
+p{
+    color: var(--whitle);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--------- basement----------- */
+
+.basement{
+    background-color: var(--black);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    bottom: 0;
+
+    
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.email_p{
+    font-size: 16px;
+}
+
+.social{
+    display: flex;
+    margin-left: auto;
+    gap: 25px;
+}
